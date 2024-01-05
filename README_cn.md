@@ -108,6 +108,12 @@ babaohuang/geminiprochat:latest
    ```bash
     pnpm run dev
    ```
+   
+4. 运行于外网可访问，项目会在 `http://:80/` 上运行。
+
+   ```
+    npm run start -- --host 0.0.0.0 --port 80
+   ```
 
 ## 鸣谢
 
